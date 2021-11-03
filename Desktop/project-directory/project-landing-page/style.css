@@ -1,5 +1,38 @@
+
+html, body {
+    background: rgb(9,121,21);
+    background: linear-gradient(90deg, rgba(9,121,21,1) 0%, rgba(0,0,0,1) 58%, rgba(0,0,0,1) 100%);
+
+}
+
+
 .container {
     display: flex;
+}
+
+.bg-image {
+    background-image: url(magnus-archives-logo-2.png); 
+    height: 800px;
+}
+
+
+.listen-logos {
+    background-color: rgba(0,0,0,1);
+}
+
+
+
+.my-eye {
+    text-shadow: 0 0 3px rgb(0, 0, 0);
+    color:rgb(12, 139, 0)
+}
+.social-icon {
+    color: white;
+}
+.card-img-top {
+    width: 100%;
+    height: 45vw;
+    object-fit: cover;
 }
 
 ul {
@@ -7,3 +40,7 @@ ul {
     
 }
 
+.listen-btn {
+    background-color: rgb(12, 139, 0) !important;
+    border: none !important;
+}
