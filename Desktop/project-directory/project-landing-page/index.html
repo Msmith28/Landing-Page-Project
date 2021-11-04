@@ -10,11 +10,11 @@
     <script src="https://kit.fontawesome.com/9a3e5e1647.js" crossorigin="anonymous"></script>
 </head>
 <body>
-<nav class="navbar fixed-top navbar-expand-md navbar-dark bg-dark">
+<nav class="navbar fixed-top navbar-expand-md navbar-dark navbar-custom d-flex">
     <div class="container-fluid">
         <a href="#" class="navbar-brand mb-0 h1" >
-            <img class="d-inline-block align-top" src="" width="50" height="50">
-            MAG
+            <img class="d-inline-block align-top" src="magnus-archives-logo-2.png" width="50" height="50">
+            <div>MAG</div>
         </a>
 
         <button type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" class="navbar-toggler" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -53,30 +53,6 @@
                     </a>
                 </li>
             </ul>
-        <div class="d-flex">
-            <ul style="list-style-type: none;">
-                <li>
-                    <span class="social-icon social-twitter"><i class="fab fa-twitter"></i></span>
-                </li>
-
-                <li>
-                    <span class="social-icon social-facebook"><i class="fab fa-facebook"></i></span>
-                </li>
-
-                <li>
-                    <span class="social-icon social-instagram"><i class="fab fa-instagram"></i></span>
-                </li>
-
-                <li>
-                    <span class="social-icon social-youtube"><i class="fab fa-youtube"></i></span>
-                </li>
-
-                <li>
-                    <span class="social-icon social-twitch"><i class="fab fa-twitch"></i></span>
-                </li>
-
-            </ul>
-        </div>
         </div>
     </div>
 </nav>
@@ -92,8 +68,9 @@
 <div class="container-fluid mb-5 justify-content-center text-white listen-logos">
     <div class="row text-center">
         <div class="text-center">
-            <h3>Ways to Listen
-            </h3>
+            <h6>
+                The Magnus Archives is a weekly horror fiction anthology examining the mysteries within the archives of London based The Magnus Institute, an organization dedicated to documenting and researching the esoteric and the weird (2016-2021). You can listen via:
+            </h6>
             <i class="fas fa-eye my-eye"></i>
         </div>
 
@@ -173,6 +150,61 @@
         </div>
     </div>
 </div>
+
+<footer class="bg-dark text-center text-white">
+    <div class="containter mt-5 text-white" style="background-color: black;">
+        <h5 class="text-center" style="padding-top: 10px;">Get Notified For New Episodes</h5>
+        <form class="row g-3">
+            <div class="col-md-6">
+                <label for="firstName" class="form-label">
+                   First Name
+                </label>
+                    <input type="text" class="form-control" id="firstName" required>
+            </div>
+                <div class="col-md-6">
+                        <label for="lastName" class="form-label">
+                            Last Name
+                        </label>
+                        <input type="text" class="form-control" id="lastName" required>
+                </div>
+            <div class="col-md-12">
+                <label for="emailInfo" class="form-label">
+                    E-mail
+                </label>
+                <input type="email" class="form-control" id="emailInfo" required>
+            </div>
+            <div class="col-md-12 d-flex justify-content-center">
+                <button type="submit" class="btn btn-primary">
+                    Subscribe
+                </button>
+            </div>
+        </form>
+    </div>
+
+    <div class="container p-4 d-flex justify-content-center">
+        <section class="mb-4">
+            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
+                <i class="fab fa-facebook"></i>
+            </a>
+
+            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
+                <i class="fab fa-twitter"></i>
+            </a>
+
+            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
+                <i class="fab fa-instagram"></i>
+             </a>
+
+            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
+                <i class="fab fa-youtube"></i>
+            </a>
+
+            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
+                <i class="fab fa-twitch"></i>
+            </a>
+        </section>
+    </div>
+</footer>
 
 
 
