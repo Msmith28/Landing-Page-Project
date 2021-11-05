@@ -10,12 +10,18 @@
     <script src="https://kit.fontawesome.com/9a3e5e1647.js" crossorigin="anonymous"></script>
 </head>
 <body>
+
+<!--Top Navbar-->
+
 <nav class="navbar fixed-top navbar-expand-md navbar-dark navbar-custom d-flex">
     <div class="container-fluid">
+
         <a href="#" class="navbar-brand mb-0 h1" >
             <img class="d-inline-block align-top" src="magnus-archives-logo-2.png" width="50" height="50">
             <div>MAG</div>
         </a>
+
+        <!--Collapse navbar Icon-->
 
         <button type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" class="navbar-toggler" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -57,14 +63,21 @@
     </div>
 </nav>
 
+<!--Header and mask-->
 <div class="bg-image d-flex justify-content-center align-items-center">
     <div class="mask" style="background-color: rgba(0, 0, 0, 0.6)">
+
+        <div class="d-flex justify-content-center align-items-center h-100">
+            <h5 class="text-white mb-0">Rusty Quill Presents...</h5>
+          </div>
+
         <div class="d-flex justify-content-center align-items-center h-100">
           <h1 class="text-white mb-0">The Magnus Archives</h1>
         </div>
     </div> 
 </div>
 
+<!--Logos of where to listen and links-->
 <div class="container-fluid mb-5 justify-content-center text-white listen-logos">
     <div class="row text-center">
         <div class="text-center">
@@ -75,22 +88,23 @@
         </div>
 
        <div class="col mt-3">
-        <i class="fa-brands fa-spotify"></i>
+        <a href="https://open.spotify.com/show/5pwBAjuJJAOt7cED5Lkjnk" style="color:white;"> <i class="fa-brands fa-spotify"></i> </a>
         <p>Spotify</p>
        </div>
 
        <div class="col mt-3">
-        <i class="fa-brands fa-youtube"></i>
+        <a href="https://www.youtube.com/playlist?list=PLSbuB1AyaJk8zTF3nE2KRxuixG_A5gBKJ" style="color:white;"> <i class="fa-brands fa-youtube"></i> </a>
         <p>YouTube</p>
        </div>
 
        <div class="col mt-3">
-        <i class="fa-solid fa-podcast"></i>
-        <p>Apple Podcast and all major podcast apps</p>
+        <a href="https://podcasts.apple.com/us/podcast/the-magnus-archives/id1095138637" style="color:white;"><i class="fa-solid fa-podcast"></i> </a>
+        <p>Apple Podcast and all major podcast apps</p> 
        </div>
     </div>
 </div>
 
+<!--Cards for earlier episodes-->
 <div class="container-fluid d-flex justify-content-center">
     <div class="row g-3">
         <div class="text-center text-white">
@@ -151,6 +165,7 @@
     </div>
 </div>
 
+<!--Cards for podcast reviews-->
 <div class="container-fluid mb-5 justify-content-center">
    
     <div class="row p-5 g-3">
@@ -205,10 +220,11 @@
     </div>       
 </div>
   
-
+<!--footer-->
 <footer class="bg-dark text-center text-white">
     <div class="containter mt-5 text-white" style="background-color: black;">
         <h5 class="text-center" style="padding-top: 10px;">Get Notified of New Episodes</h5>
+        <!--subscription form -->
         <form class="row g-3">
             <div class="col-md-6">
                 <label for="firstName" class="form-label">
@@ -229,13 +245,14 @@
                 <input type="email" class="form-control" id="emailInfo" required>
             </div>
             <div class="col-md-12 d-flex justify-content-center">
-                <button type="submit" class="btn btn-primary" style="margin-bottom: 10px;">
+                <button type="submit" class="btn btn-primary sub-btn" style="margin-bottom: 10px;">
                     Subscribe
                 </button>
             </div>
         </form>
     </div>
 
+    <!--Social media icons-->
     <div class="container p-4 d-flex justify-content-center">
         <section class="mb-4">
             <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
